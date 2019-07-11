@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Document</title>
   <link rel="stylesheet" href="src/style.css" />
+  <link rel="stylesheet" href="src/about.css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
 </head>
 
@@ -23,8 +24,7 @@
         </div>
       </header>
       <div class="date text">01.07.2020/SZCZECIN</div>
-      <!-- <div class="squiz text">SQUIZ CAMP</div>
-        <div class="step text">POSTAW PIERWSZE KROKI W NASZEJ FIRMIE</div> -->
+      <div class="squiz text">SQUIZ CAMP</div>
       <div class="sign-in text">ZAPISZ SIĘ</div>
       <div class="workshop text">DARMOWE WARSZTATY</div>
       <div class="read-more">
@@ -41,6 +41,53 @@
         </ul>
       </nav>
     </section>
+
+    <section>
+      <div class="section-title">
+          CZYM JEST WEB CAMP ?
+      </div>
+      <div class="container">
+          <ul id="slides">
+              <li class="slide showing"></li>
+              <li class="slide"></li>
+              <li class="slide"></li>
+          </ul>
+          <div class="buttons">
+              <button class="controls" id="previous">&lt;</button>
+              <button class="controls" id="pause">&#10074;&#10074;</button>
+              <button class="controls" id="next">&gt;</button>
+          </div>
+      </div>
+      <article class="about-webcamp__article">
+          <div class="about-webcamp__text--top">
+              <p>
+                  Squiz Camp to miesięczny program edukacyjny z kodowania stron i aplikacji webowych, które odbywają
+                  się
+                  pod
+                  okiem Web Developerów.
+              </p>
+          </div>
+          <div>
+              <picture class="about-webcamp__image--ballon ">
+                  <source srcset="image/hot-air-balloon-105px.png" media="(max-width: 480px)">
+                  <source srcset="image/hot-air-balloon-105px.png" media="(min-width: 490px) and (max-width:1000px)">
+                  <source srcset="image/hot-air-balloon-512px.png" media="(min-width:1024px)">
+                  <img src="#" alt="balloon">
+              </picture>
+          </div>
+          <div class="rw-sentence">
+              <p> Wznoś się na wyżyny i podnoś swoje kwalifikację:</p>
+              <div class="rw-words rw-words-1">
+                  <span> niezależnie od umiejętności</span>
+                  <span>w międzynarodowej firmie IT</span>
+                  <span>w przyjaznej atmosferze</span>
+                  <span> z ludźmi z pasją</span>
+                  <span>przy ciekawych projektach</span>
+                  <span>w każdym wieku</span>
+              </div>
+          </div>
+      </article>
+  </section>
 
     <footer>
       <button class="accordion">KONTAKT <img src="/images/icons/down-arrow.png" alt=""></button>
@@ -80,6 +127,7 @@
     </footer>
   </div>
   <script src="src/main.js"></script>
+  <script src="src/about.js"></script>
 </body>
 
 </html>

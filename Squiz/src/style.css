@@ -17,6 +17,7 @@
   background-image: url(/images/will-turner-KGc9MaDmjtI-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
 
 .text {
@@ -37,6 +38,14 @@
 
 .squiz {
   position: absolute;
+  top: 60%;
+  right: 0%;
+  height: 0px;
+  width: 250px;
+  border-bottom: 50px solid#55B3D1;
+  border-left: 45px solid transparent;
+  text-align: center;
+  line-height: 50px;
 }
 
 .sign-in {
@@ -54,7 +63,7 @@
 
 .workshop {
   position: absolute;
-  top: 60%;
+  top: 40%;
   left: 0%;
   height: 0px;
   width: 230px;
@@ -161,6 +170,7 @@ nav.active ul li {
 
 
 footer {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
